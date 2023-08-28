@@ -5,8 +5,8 @@ export const options = {
   thresholds: {
     http_req_duration: ['p(99) < 3000']
   },
-  duration: '10s',
-  vus: 2 // change it to 1 and you will see correct titles in all responses
+  duration: '1s',
+  vus: 50 // change it to 1 and you will see correct titles in all responses
 }
 
 // Simulated user behavior
